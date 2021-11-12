@@ -1,0 +1,17 @@
+*, *::after, *::before {
+    font-family: 'Yuji Syuku', serif;
+}
+
+.card {
+    --color: #2a3c24ff;
+    --background: #CFE0A3;
+    --padding: 1rem;
+    --shadowColour: #243010;
+    color: var(--color);
+    background: var(--background);
+    padding: var(--padding);
+    font-size: .25;
+    border:none;
+    box-shadow: 0 2px 5px var(--shadowColour);
+    border-radius: .25rem;
+}
